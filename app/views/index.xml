@@ -1,5 +1,21 @@
 <Alloy>
-	<Window class="container">
-		    <Switch id="checkbox"/>
+	<Window>
+		<TableView top="20">
+			<TableViewSection >
+					<TableViewRow  id="beforeLeaving">
+					<Label left="120" text="Packing Info"></Label>
+				</TableViewRow>
+				<TableViewRow  id="beforeLeaving">
+					<Label left="120" text="Packing Info"></Label>
+				</TableViewRow>
+					<TableViewRow  id="beforeLeaving">
+					<Label left="120" text="Packing Info"></Label>
+				</TableViewRow>								
+				
+				<TableViewRow  id="whileThere">
+					<Label left="120" text="More Packing Info"></Label>
+				</TableViewRow>						
+			</TableViewSection>
+			</TableView>
 	</Window>
 </Alloy>

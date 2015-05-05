@@ -1,19 +1,26 @@
 ".container": {
 	backgroundColor:"white"
+},
+
+".TableView" : {
+	
+height: Ti.UI.FILL,
+width: Ti.UI.FILL
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+
+".tblView" : {
+	
+height: Ti.UI.FILL,
+width: Ti.UI.FILL
 }
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+".tblView2" : {
+	
+height: Ti.UI.FILL,
+width: Ti.UI.FILL
 }
-
-"#checkbox[platform=android]": {
-    style:Ti.UI.Android.SWITCH_STYLE_CHECKBOX
+".TableViewRow" : {
+height: Ti.UI.FILL,
+width: Ti.UI.FILL
 }
